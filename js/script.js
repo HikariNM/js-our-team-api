@@ -1,8 +1,7 @@
 axios.get('https://boolean-teachers.github.io/mock/api/members/').then(answer => {
 
     const teamMembers = answer.data;
-    // console.log(teamMembers)
-
+    
     const cardHtml = document.getElementById('cardContainer');
     const cardForm = document.getElementById('cardFormRow');
     let count = 0;
